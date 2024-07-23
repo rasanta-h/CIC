@@ -1,0 +1,152 @@
+body{
+    font-family: 'Lato', sans-serif ;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    background-color: rgb(23, 22, 24);
+    color: bisque;
+    padding: 20px 50px;
+
+}
+
+.navTop{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+
+
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+
+}
+
+.childreninConflict{
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+}
+
+.slider{
+    background-color: black;
+    
+
+}
+
+.sliderWrapper{
+     display: flex;
+     width: 500vw;
+     transition: all 0.5s ease-in-out;
+     
+}
+
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.sliderBg{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    
+
+}
+
+.slideImg{
+    z-index: 1;
+
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+
+}
+
+.donations{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    right: 10%;
+    color: white(145, 142, 142);
+    z-index: 1;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.donationButton:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureIcon{
+    width: 50px;
+    height: 50px;
+
+}
+
+.featureTitle{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+}
+    
+.featureDesc{
+    color: ;
+}
